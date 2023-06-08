@@ -1,5 +1,7 @@
+*/Navbar*/
+
 .navbar {
-  width: 99%;
+  width: 100%;
   background-color: #555;
   overflow: auto;
 }
@@ -9,7 +11,7 @@
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 17px;  
 }
 
 .navbar a:hover {
@@ -18,6 +20,7 @@
 
 .active {
   background-color: blue;
+height: 80px;
 }
 
 @media screen and (max-width: 500px) {
@@ -97,7 +100,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Centered text */
+/*Navbar*/
+/*Warragamba Dam Image(First Page)*/
 .centered {
   position: absolute;
   top: 50%;
@@ -113,7 +117,11 @@
   color: white;
   
 }
-
+/*Image*/
+/*Second Image(location of the dam)*/
+ima{
+align-self: center;
+}
 /* The rest of the site (Body and H tags) */
 body {
   background: white;
@@ -121,38 +129,47 @@ body {
   padding: 25px;
   font-family: Monospace;
 }
-.awesome {
-  background-color: lightgrey;
-  color:black;
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
 }
-tr {
-  font-family:monospace;
-  background-color:#dddddd;
+button {
+  font-family: monospace;
+  font-size: 25px;
+}
+h3 {
+  font-family: monospace;
+  font-size: 20px;
+}
+hr {
+outline: auto;
+text-decoration-thickness: 4px;
 }
 /*The accorion*/
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: lightgrey;
+  background-color: rgb(199, 196, 196);
   color: black;
+  font-family:monospace;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
+  padding:18px;
+  transition: 0.4s;
+  width:100%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: dark grey;
-  color:white;
+.active, .accordion:hover{
+  background-color:#aca3a3;
+  outline: none;
 }
 
-/* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: rgb(186, 180, 180);
   display: none;
   overflow: hidden;
+  outline:none;
 }
+/*The accordion*/
